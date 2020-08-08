@@ -190,10 +190,6 @@ Router.prototype.push = function push(location) {
       path:'/login',
       name:'login',
       component:Login,
-      beforeEnter:(to,from,next)=>{
-        console.log(to);
-        next();
-      }
     },
     {
       path:'/register',
