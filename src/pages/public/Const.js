@@ -1,0 +1,46 @@
+//常量定义
+export default {
+  //竞赛状态
+    compStatus: [
+      {
+        name:'开始报名',
+        code:'1',
+      },
+      {
+        name:'截至报名',
+        code:'2',
+      },
+      {
+        name:'开始竞赛',
+        code:'3',
+      },
+      {
+        name:'提交成果关闭',
+        code:'4',
+      },
+      {
+        name:'发布成绩',
+        code:'5',
+      },
+    ],
+
+  //竞赛类型
+    compType:[
+      {
+        name:'ACM',
+        code:''
+      },
+      {
+        name:'服务外包',
+        code:''
+      },
+      {
+        name:'数学建模',
+        code:''
+      },
+      {
+        name:'电子竞赛',
+        code:''
+      },
+    ],
+}
